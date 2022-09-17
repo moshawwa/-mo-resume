@@ -1,0 +1,85 @@
+.container{
+    margin-left: 120px;
+}
+body{
+    width: 200vh;
+    
+}
+.hr{
+    height: 5px;
+    width: 90%;
+    margin-left: -10px;
+    background-color: #f06a35;
+    border: 1px solid #f06a35;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+.grid-container:first-child{
+    margin-left: 20px;
+}
+.first{
+    margin-left: 20px;
+    min-height: 150px;
+    line-height: 4px;
+}
+.first #profile-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 7px solid rgb(255, 176, 131);
+    margin-left: 10px;
+}
+#name{
+    width: 40%;
+    text-align: center;
+}
+.second h1{
+    margin-left: -150px;
+    margin-top: -5px;
+}
+.list-style{
+    margin-top: -15px;
+    margin-left: -20px;
+}
+.first-border{
+    border-top: 2px dotted rgb(213, 217, 219);
+    border-right: 2px dotted rgb(213, 217, 219);
+}
+.first-border p{
+    width: 100%;
+    line-height: 5px;
+}
+.second-border{
+    border-top: 2px dotted  rgb(213, 217, 219);
+    padding: 10px;
+}
+.second-border p{
+    width: 100%;
+    line-height: 5px;
+}
+.bull{
+    margin-left: 5px;
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.bull-color{
+    margin-left: 5px;
+    height: 5px;
+    width: 5px;
+    background-color: rgb(238, 106, 45);
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    font-size: 45px;
+}
+.fa{
+    color: #f5bf10b9;
+}
